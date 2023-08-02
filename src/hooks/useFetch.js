@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 // https://api.themoviedb.org/3/discover/movie?api_key=ac9398a53849628a45cc4135feb70a02
 export const useFetch = (apiPath,quaryTerm="") => {
   // console.log(apiPath,quaryTerm)

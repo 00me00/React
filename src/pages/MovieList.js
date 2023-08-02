@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Card } from '../component'
 import { useFetch } from '../hooks/useFetch'
 
 const MovieList = ({apiPath}) => {
   const {movies}=useFetch(apiPath)
-  console.log("jki",movies)
+  // console.log("jki",movies)
 //   const[movies,setMovies]=useState([])
 //   console.log("hello")
 //   useEffect(()=>{
